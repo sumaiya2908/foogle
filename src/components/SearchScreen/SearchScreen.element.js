@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 export const SearchPage = styled.div``;
 export const SearchHeader = styled.div`
@@ -24,7 +23,7 @@ export const Category = styled.li`
   font-size: 1.3rem;
   padding: 1rem 2rem 0 0.5rem;
   cursor: pointer;
-  /* text-decoration: underline; */
+  color: black;
 `;
 export const SearchResults = styled.div`
   width: 65%;
@@ -50,6 +49,8 @@ export const SearchResultContainer = styled.div`
   flex-direction: column;
   margin-top: 20px;
 `;
+
+// web search
 
 export const SearchResult = styled.div`
   display: flex;
@@ -79,3 +80,20 @@ export const ResultLink = styled.a`
 export const Description = styled.div`
   padding-top: 10px;
 `;
+
+export const NewsPub = styled.div`
+  font-size: 1rem;
+  color: grey;
+`;
+
+export const NewsTitle = styled.a`
+  font-size: 1.3rem;
+`;
+
+export const NewsDescrp = styled.div`
+  margin-bottom: 10px;
+`;
+
+export const NewsDate = styled.div``;
+
+export const NewsImage = styled.img``;

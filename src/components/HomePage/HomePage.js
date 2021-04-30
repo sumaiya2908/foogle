@@ -15,6 +15,7 @@ import { BiSearchAlt } from "react-icons/bi";
 import { Link } from "react-router-dom";
 function HomePage() {
   const [query, setQuery] = useState("");
+
   return (
     <div>
       <Home>
@@ -30,7 +31,7 @@ function HomePage() {
               home
               placeholder="Search here..."
               type="text"
-              onChange={(e) => setQuery(e.target.value)}
+              onChange={(e) => {setQuery(e.target.value)}}
               required
             />
             <Link to={`/search/${query}`}>

@@ -7,15 +7,12 @@ import {
 } from "./SearchScreen/SearchScreen.element";
 
 function ShowResult({ result }) {
-  var str = (result.url).substring(0, 35) + '...';
   return (
     <SearchResult>
-    <ResultLink href={result.url}>
-      {str}
-    </ResultLink>
-      <Title  href={result.url}>
-          {result.title}
-      </Title>
+      <ResultLink href={result.url}>
+        {result.url.substring(0, 35) + "..."}
+      </ResultLink>
+      <Title href={result.url}>{result.title}</Title>
 
       <Description>{result.description}</Description>
     </SearchResult>
