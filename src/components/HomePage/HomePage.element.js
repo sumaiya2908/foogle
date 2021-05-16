@@ -7,6 +7,11 @@ export const Home = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-top: 10vh;
+
+  @media only screen and (max-width: 600px){
+    width: fit-content;
+    height: fit-content;
+  }
 `;
 
 export const LogoText = styled.div`
