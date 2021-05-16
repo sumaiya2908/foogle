@@ -7,11 +7,6 @@ export const Home = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-top: 10vh;
-
-  @media only screen and (max-width: 600px){
-    width: 100vh;
-    height: 100vh;
-  }
 `;
 
 export const LogoText = styled.div`
