@@ -9,8 +9,8 @@ export const Home = styled.div`
   margin-top: 10vh;
 
   @media only screen and (max-width: 600px){
-    width: fit-content;
-    height: fit-content;
+    width: 100vh;
+    height: 100vh;
   }
 `;
 
